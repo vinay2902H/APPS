@@ -2,7 +2,8 @@ const express = require('express');
 const router = express.Router();
 const verifyToken = require('../Middleware/Auth');
 const RecruiterProfile = require('../Models/RecruiterProfile');
-const { useId } = require('react');
+ const { useId } = require('react');
+
 const mongoose = require('mongoose');
 const User = require('../Models/User');
 const JobSeekerProfile = require('../Models/JobSeekerProfile');
